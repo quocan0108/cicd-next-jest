@@ -15,3 +15,4 @@ export default function Page({ params }: Params) {
   <p>Junior Boot Camp 2024</p>
   </>
 }
+
