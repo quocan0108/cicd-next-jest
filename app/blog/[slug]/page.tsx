@@ -9,5 +9,9 @@ export async function generateMetadata({ params }: Params) {
 }
 
 export default function Page({ params }: Params) {
-  return <><h1>Slug: {params.slug}</h1><p>AWS FCJ 2024</p></>
+  return <>
+  <h1>Slug: {params.slug}</h1>
+  <p>AWS FCJ 2024</p>
+  <p>Junior Boot Camp 2024</p>
+  </>
 }
